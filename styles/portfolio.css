@@ -262,11 +262,37 @@ margin-top: 20px;
 /* footer related styles */
 footer{
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
 }
+.footer-col{
+    width: 50%;
+}
+#footer-title{
+    text-align: left;
+}
+#footer-des{
+    text-align: left;
+}
 .social-links{
     display: flex;
-    margin-right: 24px;
+    
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color:  #757575;
+    border-radius: 5px;
+background:  #FFF;
+width: 460px;
+border: 0;
+
+font-size: 16px;
 }
